@@ -46,8 +46,6 @@ public:
 	double fuzz;
 };
 
-
-
 class dielectric : public material {
 public:
 	dielectric(double ri) : ref_idx(ri) {}
@@ -86,4 +84,3 @@ public:
 public:
 	double ref_idx;
 };
-

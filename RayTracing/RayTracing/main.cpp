@@ -76,13 +76,10 @@ hittable_list random_scene() {
 	return world;
 }
 
-
-
 int main() {
 	constexpr auto aspect_ratio = 3.0 / 2.0;
 	constexpr int image_width = 1200;
 	constexpr int samples_per_pixel = 500;
-
 
 	//constexpr auto aspect_ratio = 16.0 / 9.0;
 	//constexpr int image_width = 400;
@@ -137,7 +134,6 @@ int main() {
 	std::ofstream ppm;
 	ppm.open(filename, std::ios::out);
 	ppm << "P3\n" << image_width << ' ' << image_height << "\n255\n";
-
 
 	for (int j = image_height - 1; j >= 0; --j) {
 		std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
