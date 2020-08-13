@@ -78,7 +78,6 @@ hittable_list final_scene() {
 	return objects;
 }
 
-
 hittable_list cornell_smoke() {
 	hittable_list objects;
 
@@ -107,7 +106,6 @@ hittable_list cornell_smoke() {
 
 	return objects;
 }
-
 
 hittable_list cornell_box() {
 	hittable_list objects;
@@ -150,7 +148,6 @@ hittable_list simple_light() {
 
 	return objects;
 }
-
 
 hittable_list earth() {
 	auto earth_texture = make_shared<image_texture>("earthmap.jpg");
