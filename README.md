@@ -13,5 +13,5 @@
 ![image6](https://raw.githubusercontent.com/estshorter/ray-tracing-in-one-weekend/images/image6.png)
 ![image7](https://raw.githubusercontent.com/estshorter/ray-tracing-in-one-weekend/images/image7.png)
 ![image8](https://raw.githubusercontent.com/estshorter/ray-tracing-in-one-weekend/images/image8.png)
-
+![image9](https://raw.githubusercontent.com/estshorter/ray-tracing-in-one-weekend/images/image9.png)
 
